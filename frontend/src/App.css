@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .vacancy-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .vacancy-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .vacancy-list li h2 {
+    margin: 0 0 10px;
+  }
+  
+  .vacancy-list li p {
+    margin: 0 0 5px;
+  }
+  
+  .vacancy-list li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .vacancy-list li a:hover {
+    text-decoration: underline;
+  }
+    
